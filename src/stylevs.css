@@ -10,6 +10,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -103,6 +107,13 @@ main{
     display: flex;
     gap: 1rem;
     margin-top: 32px;
+}
+.circuitbaixo-homevs{
+    position: absolute;
+width: 593px;
+height: 133px;
+left: 947px;
+top: 500px;
 }
 
 aside{
@@ -420,4 +431,12 @@ font-weight: 700;
 font-size: 14px;
 line-height: 17px;
 color: #1D3B50;
+}
+.circuitbaixo-benefits{
+    position: absolute;
+width: 450px;
+height: 90px;
+left: 450px;
+top: 1350px;
+mix-blend-mode: multiply;
 }
