@@ -502,12 +502,12 @@ mix-blend-mode: multiply;
   }
   .boxOrc3 {
     
-    flex: 3;
+    
     margin: 10px;
     padding: 20px;
-    padding-left: 200px;
+    padding-left: 150px;
     border-left: 1px solid rgba(0, 0, 0, 0.616);
-    max-width: 33%;
+    
     align-items: baseline;
     justify-content: space-evenly;
   }
@@ -554,7 +554,7 @@ color: #1D3B50;
     list-style: none;
   }
   .subtitulo{
-    width: 140px;
+    width: fit-content;
 height: 34px;
 font-family: 'Montserrat';
 font-style: normal;
@@ -574,5 +574,23 @@ font-weight: 700;
 font-size: 20px;
 line-height: 24px;
 color: #545454;
+
+  }
+  .textoContato2{
+    width: 350px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #545454;
+
+  }
+  .circuitbaixo-benefits2{
+    position: relative;
+    bottom: 0;
+    right: -150px;
 
   }
